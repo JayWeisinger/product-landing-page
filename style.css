@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 65px;
+    font-family: 'Lato', sans-serif;
+}
+
+#title {
+    font-family: inherit;
+}
+
+#header{
+    background-color: gray;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    padding: 10px 0 10px 80px;
+    display: flex;
+    align-items: center;
+}
+
+#logo-text {
+    padding-left: 5px;
+}
+
+#header-img {
+    height: auto;
+    width: auto;
+    max-width: 55px;
+    max-height: 45px;
+}
+
+#nav-bar {
+    font-family: inherit;
+}
+
+.nav-link {
+    display: inline;
+    text-decoration: none;
+    padding-right: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#hero {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#email {
+    width: 280px;
+    height: 27px;
+}
+
+#submit {
+    width: 150px;
+    height: 30px;
+}
