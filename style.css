@@ -66,6 +66,12 @@ a {
     
 }
 
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 #form {
     display: flex;
     flex-direction: column;
@@ -80,4 +86,47 @@ a {
 #submit {
     width: 150px;
     height: 30px;
+}
+
+.grid {
+    display: flex;
+}
+
+#features {
+    
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#icon-div {
+    
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#icon-text {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#tree-icon {
+    height: 60px;
+    width: 60px;
+}
+
+#truck-icon {
+    height: 60px;
+    width: 60px;
+}
+
+#battery-icon {
+    height: 60px;
+    width: 60px;
 }
