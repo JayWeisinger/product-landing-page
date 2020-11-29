@@ -70,22 +70,31 @@ a {
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
+    
 }
 
 #form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 #email {
     width: 280px;
     height: 27px;
+    margin-top: 20px;
+    padding-left: 5px;
 }
 
 #submit {
     width: 150px;
-    height: 30px;
+    height: 32px;
+    margin-top: 15px;
+    background-color: rgb(240, 190, 26);
+    border-style: none;
+    border-radius: 2px;
+    font-size: 16px;
 }
 
 .grid {
@@ -129,4 +138,73 @@ a {
 #battery-icon {
     height: 60px;
     width: 60px;
+}
+
+.video {
+    height: 315px;
+    width: 560px;
+    border-style: none;
+    
+}
+
+#video-div {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+#guitar-styles {
+    display: flex;
+    
+    justify-content: center;
+    margin-top: 65px;
+
+}
+
+#order-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    margin: 10px;
+    height: 315px;
+    width: calc(100% / 3);
+    text-align: center;
+    
+}
+
+#card-header {
+    margin-top: 11.5px;
+}
+
+#level {
+    background-color: gray;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#card-price {
+    margin-top: 15px;
+}
+
+#card-text {
+    line-height: 28px;
+    margin-top: 15px;
+}
+
+#select {
+    height: 40px;
+    width: 100px;
+    margin-top: 30px;
+    border-style: none;
+    border-radius: 2px;
+    font-size: 16px;
+    background-color: rgb(240, 190, 26);
 }
