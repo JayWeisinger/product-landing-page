@@ -5,8 +5,13 @@
 }
 
 body {
+    background-color: rgb(238, 238, 238);
     padding-top: 65px;
     font-family: 'Lato', sans-serif;
+}
+
+#page-wrapper {
+    position: relative;
 }
 
 #title {
@@ -14,19 +19,26 @@ body {
 }
 
 #header{
-    background-color: gainsboro;
+    background-color: rgb(238, 238, 238);
     display: flex;
+    
     position: fixed;
     top: 0px;
     left: 0px;
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 .logo {
-    padding: 10px 0 10px 80px;
+    padding: 10px 0 10px 65px;
     display: flex;
     align-items: center;
 }
@@ -34,7 +46,6 @@ body {
 #logo-text {
     padding-left: 5px;
     font-size: 25px;
-    white-space: nowrap;
 }
 
 #header-img {
@@ -44,14 +55,49 @@ body {
     max-height: 45px;
 }
 
+@media (max-width: 650px) {
+    .logo {
+        padding-left: 0px;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .logo {
+        margin-left: 0px;
+        margin-right: 25px;
+    }
+}
+
 #nav-bar {
     font-family: inherit;
+    text-align: center;
+    padding-right: 20px;
+}
+
+#nav-bar > ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+@media (max-width: 650px) {
+    #nav-bar > ul {
+        flex-direction: column;
+    }
 }
 
 .nav-link {
     display: inline;
     text-decoration: none;
-    padding-right: 80px;
+}
+
+@media (max-width: 600px) {
+    .nav-link {
+        padding-bottom: 5px;
+    }
 }
 
 a {
@@ -60,19 +106,22 @@ a {
 }
 
 #hero {
-    
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 10px;
-    
+}
+
+@media (max-width: 600px) {
+    #hero {
+        margin-top: 80px;
+    }
 }
 
 .container {
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
-    
 }
 
 #form {
@@ -104,15 +153,12 @@ a {
 }
 
 #features {
-    
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
 #icon-div {
-    
     display: flex;
     padding: 33px 70px;
     align-items: center;
@@ -145,7 +191,6 @@ a {
     height: 315px;
     width: 560px;
     border-style: none;
-    
 }
 
 #video-div {
@@ -158,10 +203,8 @@ a {
 
 #guitar-styles {
     display: flex;
-    
     justify-content: center;
     margin-top: 65px;
-
 }
 
 #order-card {
@@ -175,7 +218,6 @@ a {
     height: 315px;
     width: calc(100% / 3);
     text-align: center;
-    
 }
 
 #card-header {
@@ -221,11 +263,9 @@ a {
 }
 
 .footer-link {
-    
     display: inline;
     text-decoration: none;
     padding-right: 17px;
-    
     margin-bottom: 0px;
 }
 
