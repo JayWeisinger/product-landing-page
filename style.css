@@ -6,6 +6,7 @@
 
 body {
     background-color: rgb(238, 238, 238);
+    background-color: white;
     padding-top: 65px;
     font-family: 'Lato', sans-serif;
 }
@@ -20,6 +21,7 @@ body {
 
 #header{
     background-color: rgb(238, 238, 238);
+    background-color: bisque;
     display: flex;
     position: fixed;
     top: 0px;
@@ -45,6 +47,8 @@ body {
 #logo-text {
     padding-left: 5px;
     font-size: 25px;
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: 500;
 }
 
 #header-img {
@@ -144,12 +148,18 @@ a {
     background-color: rgb(240, 190, 26);
     border-style: none;
     border-radius: 2px;
+    cursor: pointer;
 }
 
 input[type=submit] {
     font-size: 16px;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
+}
+
+#form > #submit:hover {
+    background-color: orange;
+    transition: background-color 1s;
 }
 
 .grid {
@@ -275,7 +285,7 @@ input[type=submit] {
 }
 
 #level {
-    background-color: gray;
+    background-color: blanchedalmond;
     color: black;
     padding: 15px 0;
     width: 100%;
@@ -300,6 +310,12 @@ input[type=submit] {
     border-radius: 2px;
     font-size: 16px;
     background-color: rgb(240, 190, 26);
+    cursor: pointer;
+}
+
+#order-card > button:hover {
+    background-color: orange;
+    transition: background-color 1s;
 }
 
 #footer {
@@ -309,7 +325,7 @@ input[type=submit] {
     height: 80px;
     width: 100%;
     margin-top: 30px;
-    background-color: gainsboro;
+    background-color: bisque
 }
 
 .footer-link {
